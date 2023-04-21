@@ -4,7 +4,7 @@ import { useRouter } from 'expo-router';
 
 import styles from "./popularjobs.style";
 import { COLORS, SIZES } from '../../../constants';
-import PopularJobCard from "../../common/card/popular/PopularJobCard";
+import PopularJobCard from "../../common/cards/popular/PopularJobCard";
 import useFetch from "../../../hook/useFetch";
 
 const Popularjobs = () => {
@@ -22,7 +22,7 @@ const Popularjobs = () => {
         </TouchableOpacity>
       </View>
 
-      <View style={styles.cardContainer}>
+      <View style={styles.cardsContainer}>
         {isLoading ? (
           <ActivityIndicator size='large' color={COLORS.primary} />
         ) : error ? (

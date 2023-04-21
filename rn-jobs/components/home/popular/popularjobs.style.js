@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     fontFamily: FONT.medium,
     color: COLORS.gray
   },
-  cardContainer: {
+  cardsContainer: {
     marginTop: SIZES.medium
   },
 });

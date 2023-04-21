@@ -3,7 +3,7 @@ import { Image, Text, TouchableOpacity, View } from 'react-native';
 import styles from './popularJobCard.style';
 import { checkImageURL } from '../../../../utils';
 
-const DEFAULT_IMAGE = "https://t4.ftcdn.net/jpg/05/05/61/73/360_F_505617309_NN1CW7diNmGXJfMicpY9eXHKV4sqzO5H.jpg";
+export const DEFAULT_IMAGE = "https://t4.ftcdn.net/jpg/05/05/61/73/360_F_505617309_NN1CW7diNmGXJfMicpY9eXHKV4sqzO5H.jpg";
 
 const PopularJobCard = ({ item, selectedJob, handleCardPress}) => {
   return (
