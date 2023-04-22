@@ -4,6 +4,7 @@ import { useRouter } from "expo-router";
 import styles from "./nearbyjobs.style";
 import useFetch from "../../../hook/useFetch";
 import NearbyJobCard from "../../common/cards/nearby/NearbyJobCard";
+import { COLORS } from "../../../constants";
 
 const Nearbyjobs = () => {
   const router = useRouter();
