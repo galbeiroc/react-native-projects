@@ -1,9 +1,15 @@
-import { SafeAreaView, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native';
+import { Provider } from 'react-redux';
+import { store } from './src/app/store';
+import Counter from './src/components/Counter';
 
 export default function App() {
+
   return (
-    <SafeAreaView>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </SafeAreaView>
+    <Provider store={store}>
+      <SafeAreaView>
+        <Counter />
+      </SafeAreaView>
+    </Provider>
   );
 }
